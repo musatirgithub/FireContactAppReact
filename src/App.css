@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://picsum.photos/1600/900);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 3rem;
+}
+
+.contacts-table{
+    padding: 1.5rem;
+    background-color: #F8F9FA;
+}
+
+.contacts-table th, td{
+    padding: 0 0.5rem;  
+    word-wrap: break-word;
+}
+
+.table-info{
+    width: 9rem;
+}
+
+@media (max-width: 950px){
+    .main-container{
+        flex-direction: column;
+    }
+}
